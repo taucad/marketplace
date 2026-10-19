@@ -1,12 +1,12 @@
 {
   "name": "taucad",
-  "description": "Tau's code-CAD plugin: kernel skills and the tau MCP server, installed from npm.",
+  "description": "Claude Code and Codex marketplace for the Tau code-CAD plugin: the tau MCP server and kernel skills, installed from npm as @taucad/agent-plugin.",
   "owner": { "name": "taucad", "url": "https://tau.new" },
   "plugins": [
     {
       "name": "tau",
       "source": { "source": "npm", "package": "@taucad/agent-plugin", "version": "beta" },
-      "description": "Evaluate, test, screenshot and export code-CAD models with Tau."
+      "description": "Code-CAD for coding agents: build replicad, OpenSCAD, JSCAD, Manifold, PicoVoxel, SMLib, tscircuit, build123d and PicoGK models, check them with GeoSpec tests, screenshot them and export STEP, STL, 3MF or glTF. Needs Node.js 24 and the Tau CLI: npm install -g @taucad/cli@beta."
     }
   ]
 }
