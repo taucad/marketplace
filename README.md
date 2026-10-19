@@ -10,7 +10,7 @@ Needs Node.js 24 or later with its npm 11. Install the Tau CLI first; the plugin
 npm install -g @taucad/cli@beta
 ```
 
-Claude Code 2.1.275 or later: `claude plugin install tau --marketplace taucad/marketplace`. Older: `claude plugin marketplace add taucad/marketplace`, then `claude plugin install tau@taucad`.
+Claude Code 2.1.292 or later: `claude plugin install tau --marketplace taucad/marketplace`. Older: `claude plugin marketplace add taucad/marketplace`, then `claude plugin install tau@taucad`.
 
 Codex (no one-step form): `codex plugin marketplace add taucad/marketplace`, then `codex plugin add tau@taucad`.
 
